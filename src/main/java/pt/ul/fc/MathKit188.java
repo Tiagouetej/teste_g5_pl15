@@ -21,7 +21,7 @@ public class MathKit188 {
      * Returns the area of a rectangle with the given width and height.
      */
     public static int areaOf(int width, int height) {
-        return 2 * (width + height);
+        return (width * height);
     }
 
     /**
@@ -35,7 +35,7 @@ public class MathKit188 {
      * Returns true if n is strictly greater than zero.
      */
     public static boolean isPositive(int n) {
-        return n < 0;
+        return n > 0;
     }
 
     /**
