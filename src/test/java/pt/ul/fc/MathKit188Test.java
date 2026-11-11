@@ -22,4 +22,13 @@ class MathKit188Test {
         assertEquals(7, MathKit188.add(3, 4));
         assertEquals(0, MathKit188.add(-2, 2));
     }
+    @Test
+    void areaOfWorks() {
+        assertEquals(12, MathKit188.areaOf(3, 4));
+        assertEquals(2, MathKit188.areaOf(1, 2));
+    }
+    @Test
+    void isPositiveWorks() {
+        assertEquals(true, MathKit188.isPositive(4));
+        assertEquals(false, MathKit188.isPositive(0));
 }
